@@ -60,7 +60,7 @@ protected void onCreate(Bundle savedInstanceState) {
     });
 
     findViewById(R.id.downloadFile).setOnClickListener(v -> {
-        String fileUrl = "https://raw.githubusercontent.com/auvehassan/AndroidScopedStorage/main/android.txt";
+        String fileUrl = "https://raw.githubusercontent.com/auvehassan/AndroidScopedStorage/master/android.txt";
         String fileName = "android.txt";
 
         new Thread(() -> downloadFile(fileUrl, fileName)).start();
